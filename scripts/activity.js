@@ -31,7 +31,7 @@ function next_step()
     outputArea = document.getElementById(output_id);
     outputArea.innerHTML = story[output_id][story_index[output_id]];
     story_index[output_id]++;
-  }
+  } 
   let progress = (step_num/(total_steps-1))*100; // percentage progress of steps
   document.getElementById("task_progress").MaterialProgress.setProgress(progress);
   step_num++;
