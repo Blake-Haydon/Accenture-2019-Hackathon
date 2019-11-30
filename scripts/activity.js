@@ -11,7 +11,6 @@ let story_index = {
 
 
 next_screen();
-next_step();
 
 function next_step()
 {
