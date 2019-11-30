@@ -4,7 +4,7 @@ function next_step()
   if (total_steps <= step_num)
   {
     // go to main or completion screen
-    let url = './activity_' + link_ID + '/main.innerHTML';
+    let url = '../index.html';
     document.location.href = url;
   }
   else if (step_num < 0)
