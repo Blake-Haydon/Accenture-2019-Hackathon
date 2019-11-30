@@ -50,26 +50,6 @@
         <!-- MAIN PAGE CONTENT HERE -->
         <div class="grid-container" id="main-grid">
 
-          <!--
-          <div>
-            <button onclick="removeAnimation()">
-              hey there big boy
-            </button>
-
-            <div id="myContainer">
-              <div id="myAnimation" style="opacity: 0;">
-                <div id="borderBoxInfo" class="border-box" style="text-align: center;">
-                  <p id="infoTitle"> INFO TITLE
-                    <hr style="color: #000000;">
-                    <div style="font-weight:normal;" id="infoArea">
-                      My name is Joe
-                    </div>
-                </div>
-              </div>
-            </div>
-            <script src="../animationScript.js"></script>
-          </div> -->
-
           <div class="chat_box">
             <img src="../graphics/profile_image_1_v2.png" alt="Avatar">
             <h1 id="character"></h1>
@@ -95,9 +75,7 @@
             <div id="progress_box">
               <div id="task_progress" class="mdl-progress mdl-js-progress"></div>
               <script>
-                document.querySelector('#task_progress').addEventListener('mdl-componentupgraded', function() {
-                  this.MaterialProgress.setProgress(0);
-                });
+                document.getElementById("task_progress").MaterialProgress = 0;
               </script>
             </div>
           </div>

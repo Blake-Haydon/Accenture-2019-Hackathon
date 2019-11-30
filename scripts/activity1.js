@@ -1,17 +1,3 @@
-
-let story = story1;
-let step_num = 0;
-let screen_num = 0;
-let story_index = {
-  character: 0,
-  text_msg: 0,
-  task_title: 0,
-  task: 0,
-  info_msg: 0
-};
-
-
-
 function updateWarning(warning_message)
 {
   // update the warning message and show the message
