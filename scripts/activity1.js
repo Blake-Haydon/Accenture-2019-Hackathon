@@ -10,6 +10,7 @@ let story_index = {
 };
 
 
+
 function updateWarning(warning_message)
 {
   // update the warning message and show the message

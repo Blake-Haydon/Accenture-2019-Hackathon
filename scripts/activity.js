@@ -1,12 +1,10 @@
-next_screen();
-
 function next_step()
 {
   let total_steps = story.steps.length;
   if (total_steps <= step_num)
   {
     // go to main or completion screen
-    let url = './activity_' + link_ID + '/main.innerHTML';
+    let url = '../index.html';
     document.location.href = url;
   }
   else if (step_num < 0)
@@ -31,4 +29,5 @@ function next_screen()
   outputArea = document.getElementById(output_id);
   outputArea.innerHTML = story.screens[screen_num];
   story_index[output_id]++;
+  screen_num++;
 }
