@@ -18,7 +18,7 @@ opacitySave = 0;
   function frameStep()
   {
 
-    if (posReal == 200)
+    if (posReal == 20)
     {
       clearInterval(animationId);
     }
