@@ -16,202 +16,60 @@
 
 <body>
 
+  <!-- Uses a header that scrolls with the text, rather than staying
+  locked at the top -->
+  <div class="mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--scroll">
+      <div class="mdl-layout__header-row">
+
+        <!-- Title -->
+        <span class="mdl-layout-title">G-Bank Education</span>
+
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+        </nav>
+      </div>
+    </header>
 
 
-  <div class="grid-container" id="main-grid">
+    <main class="mdl-layout__content">
+      <div class="page-content">
 
-    <div class="grid-item">
-      <!-- Wide card with share menu button -->
-      <style>
-      .demo-card-wide.mdl-card {
-        width: 512px;
-      }
-      .demo-card-wide > .mdl-card__title {
-        color: #fff;
-        height: 176px;
-        background: url('../assets/demos/welcome_card.jpg') center / cover;
-      }
-      .demo-card-wide > .mdl-card__menu {
-        color: #fff;
-      }
-      </style>
 
-      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Welcome</h2>
+        <!-- MAIN PAGE CONTENT HERE -->
+        <div class="grid-container" id="main-grid">
+
+          <div class="grid-item">
+            <p>testsetsetsetsetset</p>
+          </div>
+
+          <div class="grid-item">
+              <p>testsetsetsetsetset</p>
+          </div>
+
         </div>
-        <div class="mdl-card__supporting-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Mauris sagittis pellentesque lacus eleifend lacinia...
-        </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-            Get Started
-          </a>
-        </div>
-        <div class="mdl-card__menu">
-          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-            <i class="material-icons">share</i>
-          </button>
-        </div>
+
+        <!-- FOOTER -->
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">Title</div>
+            <ul class="mdl-mini-footer__link-list">
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Privacy & Terms</a></li>
+            </ul>
+          </div>
+        </footer>
+
       </div>
-
-    </div>
-
-    <div class="grid-item">
-      <div class="sensor-container">
-        <h2>Test title <button onclick="alert('button was clicked')">X</button> </h2>
-        <p>
-
-          {
-          "glossary": {
-          "title": "example glossary",
-          "GlossDiv": {
-          "title": "S",
-          "GlossList": {
-          "GlossEntry": {
-          "ID": "SGML",
-          "SortAs": "SGML",
-          "GlossTerm": "Standard Generalized Markup Language",
-          "Acronym": "SGML",
-          "Abbrev": "ISO 8879:1986",
-          "GlossDef": {
-          "para": "A meta-markup language, used to create markup languages such as DocBook.",
-          "GlossSeeAlso": ["GML", "XML"]
-          },
-          "GlossSee": "markup"
-          }
-          }
-          }
-
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <div class="sensor-container">
-        <h2>Test title <button onclick="alert('button was clicked')">X</button> </h2>
-        <p>
-
-          {
-          "glossary": {
-          "title": "example glossary",
-          "GlossDiv": {
-          "title": "S",
-          "GlossList": {
-          "GlossEntry": {
-          "ID": "SGML",
-          "SortAs": "SGML",
-          "GlossTerm": "Standard Generalized Markup Language",
-          "Acronym": "SGML",
-          "Abbrev": "ISO 8879:1986",
-          "GlossDef": {
-          "para": "A meta-markup language, used to create markup languages such as DocBook.",
-          "GlossSeeAlso": ["GML", "XML"]
-          },
-          "GlossSee": "markup"
-          }
-          }
-          }
-
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item tall-item2">
-      <div class="sensor-container">
-        <h2>Test title -100<button onclick="alert('button was clicked')">X</button> </h2>
-        <p>
-
-          {
-          "glossary": {
-          "title": "example glossary",
-          "GlossDiv": {
-          "title": "S",
-          "GlossList": {
-          "GlossEntry": {
-          "ID": "SGML",
-          "SortAs": "SGML",
-          "GlossTerm": "Standard Generalized Markup Language",
-          "Acronym": "SGML",
-          "Abbrev": "ISO 8879:1986",
-          "GlossDef": {
-          "para": "A meta-markup language, used to create markup languages such as DocBook.",
-          "GlossSeeAlso": ["GML", "XML"]
-          },
-          "GlossSee": "markup"
-          }
-          }
-          }
-
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item long-item3">
-      <div class="sensor-container">
-        <h2>Test title <button onclick="alert('button was clicked')">X</button> </h2>
-        <p>
-
-          {
-          "glossary": {
-          "title": "example glossary",
-          "GlossDiv": {
-          "title": "S",
-          "GlossList": {
-          "GlossEntry": {
-          "ID": "SGML",
-          "SortAs": "SGML",
-          "GlossTerm": "Standard Generalized Markup Language",
-          "Acronym": "SGML",
-          "Abbrev": "ISO 8879:1986",
-          "GlossDef": {
-          "para": "A meta-markup language, used to create markup languages such as DocBook.",
-          "GlossSeeAlso": ["GML", "XML"]
-          },
-          "GlossSee": "markup"
-          }
-          }
-          }
-
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <div class="sensor-container">
-        <h2>Test title <button onclick="alert('button was clicked')">X</button> </h2>
-        <p>
-
-          {
-          "glossary": {
-          "title": "example glossary",
-          "GlossDiv": {
-          "title": "S",
-          "GlossList": {
-          "GlossEntry": {
-          "ID": "SGML",
-          "SortAs": "SGML",
-          "GlossTerm": "Standard Generalized Markup Language",
-          "Acronym": "SGML",
-          "Abbrev": "ISO 8879:1986",
-          "GlossDef": {
-          "para": "A meta-markup language, used to create markup languages such as DocBook.",
-          "GlossSeeAlso": ["GML", "XML"]
-          },
-          "GlossSee": "markup"
-          }
-          }
-          }
-
-        </p>
-      </div>
-    </div>
-
-
-
-
-
+    </main>
+  </div>
 
 
   <!-- scripts -->
