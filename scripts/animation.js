@@ -12,9 +12,11 @@ function moveAnimation()
   {
     displaying = true;
   }
+  
   let animationId = setInterval(frameStep,1)
   let divider = 1;
-opacitySave = 0;
+  let opacitySave = 0;
+
   function frameStep()
   {
 

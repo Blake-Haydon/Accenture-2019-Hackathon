@@ -45,3 +45,19 @@ grid-row-start: 2;
 grid-row-end: 3;
 text-align: center;
 }
+
+.main-title {
+  font-size: 42px !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.main-subheadings{
+  font-size: 21px !important;
+  /* text-decoration: underline !important; not needed anymore*/
+  color: white !important;
+}
+
+.mdl-layout__header-row{
+  height: 80px !important;
+}
