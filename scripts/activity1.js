@@ -4,7 +4,8 @@ let story_index = {
   character: 0,
   text_msg: 0,
   task_title: 0,
-  task: 0
+  task: 0,
+  info_msg: 0
 };
 
 function updateWarning(warning_message)

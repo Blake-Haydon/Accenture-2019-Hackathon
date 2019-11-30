@@ -4,6 +4,7 @@ let story1 = {
     ["task_title", "task","info_msg"],
     ["text_msg", "task","info_msg"],
     ["task","info_msg"],
+    ["info_msg"],
     ["task","info_msg"],
     ["text_msg", "task","info_msg"],
     ["character", "text_msg", "task_title", "task","info_msg"],
