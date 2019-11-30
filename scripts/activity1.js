@@ -10,7 +10,6 @@ function updateWarning(warning_message)
   message_box.innerHTML = warning_message;
 
   setTimeout(removeWarning, 10000);
-
 }
 
 function removeWarning()
