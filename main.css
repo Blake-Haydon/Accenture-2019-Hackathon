@@ -2,16 +2,24 @@
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  background-color: white;
   padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
+
 }
 
 .grid-item {
   font-size: 30px;
-  /* background-color: black; */
-  border: 1px solid #487a48;
   text-align: center;
-  outline-style: solid;
+}
+
+.big-button {
+  padding: 20px 70px;
+  text-align: center;
+  background-color: #f59b25;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 15px;
+  font-color: #ffffff;
+  border: 2px solid white;
 }
