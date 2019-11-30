@@ -40,5 +40,32 @@ let story1 = {
   "Mobile numbers can be used to send money to others as well",
   "Different types of payments should be made from relevant accounts. The previous transaction to Gary was for food and was taken from your Everyday Account. This payment is for movie tickets so you'd want to take it from your Personal Account to differentiate it from your neccessary expenses.",
   "Both Bank Account details and Mobile Numbers can easily be used to make payments to others"
-  ]
+  ],
+  screens: [
+    '<div class = "phone" style = "background = #FA870D">'+
+      '<div class="grid-itemacross">'+
+        '<p style = " font-family: "Lato", sans-serif; font-size: 25px; text-align: left; font-weight: bold; padding: 5px;"> G-Bank </p>'+
+      '<hr>'+
+      '<img src = "../moneyImage.png" height = 150bpx width = 200px>'+
+      '</div>'+
+      '<div class="grid-item1">'+
+        '<button class = "buttonSize"> Transfer Funds </button>'+
+      </div>
+      <div class="grid-item2">
+        <button class = "buttonSize"> Pay Anyone </button>
+      </div>
+      <div class="grid-item3">
+        <button class = "buttonSize"> History </button>
+      </div>
+      <div class="grid-item4">
+        <button class = "buttonSize"> Help </button>
+      </div>
+      <div class="grid-item5">
+        <button class = "buttonSize"> Cardless Cash </button>
+      </div>
+      <div class="grid-item6">
+        <button class = "buttonSize"> Settings </button>
+      </div>
+      </div>
+  ],
 }

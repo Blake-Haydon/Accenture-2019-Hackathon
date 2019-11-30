@@ -1,0 +1,73 @@
+.phone{
+    border: 2px solid black;
+    height: 400px;
+    width: 250px;
+    border-radius: 20px;
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 60% 15% 15%;
+    background: #F9F9F9;
+}
+.grid-itemacross {
+  grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 1;
+text-align: center;
+
+}
+.grid-item1 {
+  grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+text-align: center;
+
+}
+.grid-item2 {
+  grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+text-align: center;
+
+}
+.grid-item3 {
+  grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+text-align: center;
+
+}
+.grid-item4 {
+  grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 3;
+grid-row-end: 4;
+text-align: center;
+}
+.grid-item5 {
+  grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 3;
+grid-row-end: 4;
+text-align: center;
+
+}
+.grid-item6 {
+  grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 4s;
+text-align: center;
+
+}
+.buttonSize{
+  height: 60px;
+  width: 100%;
+  background: #FA8509;
+  border-radius: 5px
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}

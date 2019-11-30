@@ -23,3 +23,8 @@ function next_step()
   document.getElementById("task_progress").MaterialProgress.setProgress(progress);
   step_num++;
 }
+
+function next_screen()
+{
+  
+}
