@@ -10,7 +10,8 @@
       <p style = " font-family: 'Lato', sans-serif; font-size: 25px; text-align: left; font-weight: bold; padding: 10px;"> G-Bank </p>
       <hr>
     </div>
-    <div stle = "height: 30%; width: 100%;"class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+    <div class = "grid-item4">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
       <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
         <i class="material-icons">search</i>
       </label>
@@ -19,13 +20,88 @@
         <label class="mdl-textfield__label" for="sample-expandable">Account Name</label>
       </div>
     </div>
-    <div style = "height 20%; border: 2px solid black;"id = "listItem1">
+  </div>
 
+    <div class = "grid-item3">
+      <ul class="demo-list-two mdl-list" style = "width: 100% !important;">
+        <li class="mdl-list__item mdl-list__item--two-line">
+
+          <div class="mdlFontP">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons mdl-list__item-avatar">person</i>
+            <span style = "display: flex !important;">Chetan Narayan</span>
+            <span style = "font-size: 8px !important;"class="mdl-list__item-sub-title">BSB:543154 Acc: 45353532</span>
+          </span>
+        </div>
+
+
+
+
+          <span style = "margin-left: auto !important;" class="mdl-list__item-secondary-content">
+            <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+          </span>
+
+
+        </li>
+        <li class="mdl-list__item mdl-list__item--two-line">
+
+          <div class="mdlFontP">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons mdl-list__item-avatar">person</i>
+            <span style = "display: inline-flex !important;">Tristan Clarky</span>
+            <span style = "font-size: 8px !important;"class="mdl-list__item-sub-title">BSB:543154 Acc: 45353532</span>
+          </span>
+        </div>
+
+
+
+
+          <span style = "margin-left: auto !important;" class="mdl-list__item-secondary-content">
+            <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+          </span>
+
+
+        </li>
+        <li class="mdl-list__item mdl-list__item--two-line">
+
+          <div class="mdlFontP">
+          <span class="mdl-list__item-primary-content">
+            <i class="material-icons mdl-list__item-avatar">person</i>
+            <span style = "display: flex !important;">Blake Haydon</span>
+            <span style = "font-size: 8px !important;"class="mdl-list__item-sub-title">BSB:543154 Acc: 45353532</span>
+          </span>
+        </div>
+
+
+
+
+          <span style = "margin-left: auto !important;" class="mdl-list__item-secondary-content">
+            <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+          </span>
+
+
+        </li>
+      </ul>
     </div>
-    </div>
+      <div class ="grid-item2">
+      <div style = "width: 50%; float:left">
+        <button class = "buttonClass">Return</button>
+          </div>
+          <div style = "width: 50%; float:right">
+            <button class = "buttonClass">Next</button>
+              </div>
+            </div>
+
+
   </div>
 </body>
 <style>
+.mdlFontP{
+  font-size: 15px !important;
+}
+.mdlFontS{
+  font-size: 8px !important;
+}
   .phone{
     border: 2px solid black;
     height: 400px;
@@ -33,7 +109,7 @@
     border-radius: 20px;
     display: inline-grid;
     grid-template-columns: 100%;
-    grid-template-rows: 20% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 17% 5% 60% 15%;
     background: #F9F9F9;
   }
   .grid-itemacross {
@@ -51,7 +127,27 @@
     grid-row-end: 3;
     text-align: center;
   }
-
+  .grid-item2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+  }
+  .grid-item3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+  }
+  .grid-item4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+  }
 
   .buttonClass{
     height: 60px;
@@ -62,5 +158,8 @@
   .inputBox{
     width: 90%;
   }
+  .demo-list-two {
+  width: 300px;
+}
 </style>
 </html>
