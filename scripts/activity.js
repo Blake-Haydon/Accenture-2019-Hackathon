@@ -1,3 +1,4 @@
+next_screen();
 
 function next_step()
 {
@@ -26,5 +27,8 @@ function next_step()
 
 function next_screen()
 {
-  
+  output_id = "screen_section";
+  outputArea = document.getElementById(output_id);
+  outputArea.innerHTML = story.screens[screen_num];
+  story_index[output_id]++;
 }

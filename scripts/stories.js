@@ -50,22 +50,53 @@ let story1 = {
       '</div>'+
       '<div class="grid-item1">'+
         '<button class = "buttonSize"> Transfer Funds </button>'+
-      </div>
-      <div class="grid-item2">
-        <button class = "buttonSize"> Pay Anyone </button>
-      </div>
-      <div class="grid-item3">
-        <button class = "buttonSize"> History </button>
-      </div>
-      <div class="grid-item4">
-        <button class = "buttonSize"> Help </button>
-      </div>
-      <div class="grid-item5">
-        <button class = "buttonSize"> Cardless Cash </button>
-      </div>
-      <div class="grid-item6">
-        <button class = "buttonSize"> Settings </button>
-      </div>
-      </div>
+      '</div>'+
+      '<div class="grid-item2">'+
+        '<button class = "buttonSize" onclick="next_screen()"> Pay Anyone </button>'+
+      '</div>'+
+      '<div class="grid-item3">'+
+        '<button class = "buttonSize"> History </button>'+
+      '</div>'+
+      '<div class="grid-item4">'+
+        '<button class = "buttonSize"> Help </button>'+
+      '</div>'+
+      '<div class="grid-item5">'+
+        '<button class = "buttonSize"> Cardless Cash </button>'+
+      '</div>'+
+      '<div class="grid-item6">'+
+        '<button class = "buttonSize"> Settings </button>'+
+      '</div>'+
+      '</div>',
+      '<div class = "phone" style = "background = #FA870D">'+
+        '<div class="grid-itemacross">'+
+          '<br>'+
+          '<p style = " font-family: "Lato", sans-serif; font-size: 25px; text-align: left; font-weight: bold; padding: 10px;"> G-Bank </p>'+
+          '<hr>'+
+        '</div>'+
+        '<div class = "grid-item1">'+
+          '<form>'+
+            '<div style = "width: 95%;"class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">'+
+              '<input class="mdl-textfield__input" type="text" id="accountnumber">'+
+       '<label class="mdl-textfield__label" for="accountNumber">Account Name</label>'+
+            '</div>'+
+            '<div style = "width: 95%;"class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">'+
+              '<input class="mdl-textfield__input" type="text" id="accountnumber">'+
+       '<label class="mdl-textfield__label" for="accountNumber">BSB:</label>'+
+            '</div>'+
+            '<div style = "width: 95%;"class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">'+
+              '<input class="mdl-textfield__input" type="text" id="accountnumber">'+
+       '<label class="mdl-textfield__label" for="accountNumber">Account Number:</label>'+
+            '</div>'+
+            '<label style = " font-family: "Lato", sans-serif;" > Save to account address book</label>'+
+            '<input type = "checkbox"></input>'+
+          '</form>'+
+          '<div style = "width:50%; float: left;">'+
+            '<button class = "buttonClass">Return</button>'+
+            '</div>'+
+            '<div style = "width:50%; float: right;">'+
+              '<button class = "buttonClass">Next</button>'+
+              '</div>'+
+        '</div>'+
+      '</div>'
   ],
 }
