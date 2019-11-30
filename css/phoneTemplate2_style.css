@@ -1,0 +1,36 @@
+.phone{
+  border: 2px solid black;
+  height: 400px;
+  width: 250px;
+  border-radius: 20px;
+  display: inline-grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 10% 10% 10% 10% 10% 10%;
+  background: #F9F9F9;
+}
+.grid-itemacross {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  text-align: center;
+
+}
+.grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+}
+
+
+.buttonClass{
+  height: 60px;
+  width: 90px;
+  background: #f59b25;
+  border-radius: 5px;
+}
+.inputBox{
+  width: 90%;
+}

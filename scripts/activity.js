@@ -1,5 +1,3 @@
-next_screen();
-
 function next_step()
 {
   let total_steps = story.steps.length;
@@ -31,4 +29,5 @@ function next_screen()
   outputArea = document.getElementById(output_id);
   outputArea.innerHTML = story.screens[screen_num];
   story_index[output_id]++;
+  screen_num++;
 }

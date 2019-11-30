@@ -3,8 +3,8 @@ let story1 = {
     ["character", "text_msg", "task_title", "task","info_msg"],
     ["task_title", "task","info_msg"],
     ["text_msg", "task","info_msg"],
-    ["task","info_msg"],
     ["info_msg"],
+    ["task","info_msg"],
     ["task","info_msg"],
     ["text_msg", "task","info_msg"],
     ["character", "text_msg", "task_title", "task","info_msg"],
@@ -28,7 +28,7 @@ let story1 = {
     "Choose 'Mobile Number' and then enter the number supplied by your friend. Save their details to your address book so you don't need to re-enter their details later.",
     "Make the $20 payment using your 'Personal Account' and give a relevant description of your choice.",
     "Confirm the details are correct and make the payment.",
-    "You have successfully sent money to your friends!<br> and continue."
+    "You have successfully sent money to your friends!<br> Press to continue to main menu."
   ],
   info_msg: ["The home screen is a place where the main banking functions can be accessed",
   "This is your address book, with all of your saved banking contacts. These make it even faster to make payments to your friends without entering the details again.",
@@ -42,6 +42,7 @@ let story1 = {
   "Both Bank Account details and Mobile Numbers can easily be used to make payments to others"
   ],
   screens: [
+    '<link rel="stylesheet" type="text/css" href="../css/phoneTemplate1_style.css">'+
     '<div class = "phone" style = "background = #FA870D">'+
       '<div class="grid-itemacross">'+
         '<p style = " font-family: "Lato", sans-serif; font-size: 25px; text-align: left; font-weight: bold; padding: 5px;"> G-Bank </p>'+
@@ -67,6 +68,8 @@ let story1 = {
         '<button class = "buttonSize"> Settings </button>'+
       '</div>'+
       '</div>',
+// Second Screen
+      '<link rel="stylesheet" type="text/css" href="../css/phoneTemplate2_style.css">'+
       '<div class = "phone" style = "background = #FA870D">'+
         '<div class="grid-itemacross">'+
           '<br>'+
@@ -97,6 +100,97 @@ let story1 = {
               '<button class = "buttonClass">Next</button>'+
               '</div>'+
         '</div>'+
-      '</div>'
+      '</div>',
+
+      <div class = "phone" style = "background = #FA870D">
+        <div class="grid-itemacross">
+          <br>
+          <p style = " font-family: 'Lato', sans-serif; font-size: 25px; text-align: left; font-weight: bold; padding: 10px;"> G-Bank </p>
+          <hr>
+        </div>
+        <div class = "grid-item4">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+          <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" id="sample6">
+            <label class="mdl-textfield__label" for="sample-expandable">Account Name</label>
+          </div>
+        </div>
+      </div>
+
+        <div class = "grid-item3">
+          <ul class="demo-list-two mdl-list" style = "width: 100% !important;">
+            <li class="mdl-list__item mdl-list__item--two-line">
+
+              <div class="mdlFontP">
+              <span class="mdl-list__item-primary-content">
+                <i class="material-icons mdl-list__item-avatar">person</i>
+                <span style = "display: flex !important;">Chetan Narayan</span>
+                <span style = "font-size: 8px !important;"class="mdl-list__item-sub-title">BSB:543154 Acc: 45353532</span>
+              </span>
+            </div>
+
+
+
+
+              <span style = "margin-left: auto !important;" class="mdl-list__item-secondary-content">
+                <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+              </span>
+
+
+            </li>
+            <li class="mdl-list__item mdl-list__item--two-line">
+
+              <div class="mdlFontP">
+              <span class="mdl-list__item-primary-content">
+                <i class="material-icons mdl-list__item-avatar">person</i>
+                <span style = "display: inline-flex !important;">Tristan Clarky</span>
+                <span style = "font-size: 8px !important;"class="mdl-list__item-sub-title">BSB:543154 Acc: 45353532</span>
+              </span>
+            </div>
+
+
+
+
+              <span style = "margin-left: auto !important;" class="mdl-list__item-secondary-content">
+                <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+              </span>
+
+
+            </li>
+            <li class="mdl-list__item mdl-list__item--two-line">
+
+              <div class="mdlFontP">
+              <span class="mdl-list__item-primary-content">
+                <i class="material-icons mdl-list__item-avatar">person</i>
+                <span style = "display: flex !important;">Blake Haydon</span>
+                <span style = "font-size: 8px !important;"class="mdl-list__item-sub-title">BSB:543154 Acc: 45353532</span>
+              </span>
+            </div>
+
+
+
+
+              <span style = "margin-left: auto !important;" class="mdl-list__item-secondary-content">
+                <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+              </span>
+
+
+            </li>
+          </ul>
+        </div>
+          <div class ="grid-item2">
+          <div style = "width: 50%; float:left">
+            <button class = "buttonClass">Return</button>
+              </div>
+              <div style = "width: 50%; float:right">
+                <button class = "buttonClass">Next</button>
+                  </div>
+                </div>
+
+
+      </div>
   ],
 }
