@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 let story = story1;
 let step_num = 0;
 let screen_num = 0;
@@ -69,4 +69,4 @@ function removeWarning()
   let warning_box = document.getElementById('warning_box');
   warning_box.style.opacity = 0;
 }
->>>>>>> Stashed changes
+

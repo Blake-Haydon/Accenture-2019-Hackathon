@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 let story1 = {
   steps: [
     ["character", "text_msg", "task_title", "task","info_msg"],
@@ -207,4 +207,3 @@ let story1 = {
       '</div>'
   ],
 }
->>>>>>> Stashed changes
