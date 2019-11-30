@@ -72,3 +72,51 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 160%;
 }
+
+.task_box {
+  background-color: #ffff33;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Clear floats */
+.task_box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.task_box img {
+  float: left;
+  max-width: 70px;
+  width: 100%;
+  margin-right: 20px;
+
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
+.task_box p {
+  padding-top: 1%;
+  padding-left: 4%;
+  padding-bottom: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 130%
+}
+
+.task_box h1 {
+  padding-top: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 160%;
+}
+
+#task_progress {
+  padding-top: 1%;
+}
+
+#progress_box {
+  padding-top: 1%;
+  padding-left: 4%;
+  padding-bottom: 2%;
+}
