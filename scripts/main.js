@@ -1,13 +1,16 @@
 
-function activitySelected(activity_name)
+function activitySelected(link_ID)
 {
-  console.log('this works and is connected ' + activity_name);
+  // filepath from a local machine
+  let url = './activity_' + link_ID + '/main.html'
+  document.location.href = url;
+
 }
 
-function generateActivity(name, link, emoji)
+function generateActivity(name, link_ID, emoji)
 {
   let activity = document.createElement( 'div' );
-  activity.innerHTML =   '<button style="color: #ffffff" class="big-button" onclick="activitySelected("' + name + '");">' +
+  activity.innerHTML =   '<button style="color: #ffffff" class="big-button" onclick="activitySelected('+link_ID+')"' +
                             '<div style="display: center; padding: 10px 10px">' +
                               name + ' <br>' +
                               '<h1>' + emoji + '</h1> ' +
@@ -20,30 +23,14 @@ function generateActivity(name, link, emoji)
 }
 
 
-generateActivity('Pay back a friend for food', 'NO LINK, JUST FILLER', "💳");
-generateActivity('Get payments from work', 'NO LINK, JUST FILLER', "💰");
-generateActivity('Pay back a home loan', 'NO LINK, JUST FILLER', "🤑");
-generateActivity('Make a super contribution', 'NO LINK, JUST FILLER', "💵");
-generateActivity('Apply for a home loan', 'NO LINK, JUST FILLER', "🏦");
-generateActivity('Open a new bank account', 'NO LINK, JUST FILLER', "💱");
-generateActivity('Trade stocks on the ASX', 'NO LINK, JUST FILLER', "💹");
+generateActivity('Pay back a friend for food', "1", "💳");
 
-// more filler
-generateActivity('Find a savings account', 'NO LINK, JUST FILLER',"💰");
-generateActivity('Use a business account to pay a client', 'NO LINK, JUST FILLER', "🏦");
-
-
-//
-// let story = {
-//   'step1': {
-//     'name': "hello"
-//     'objectives': "hello"
-//     'info': "hello"
-//   }
-//
-//   'step2': {
-//     'name': "hello"
-//     'objectives': "hello"
-//     'info': "hello"
-//   }
-// }
+// there are no links to the other pages (just for show)
+generateActivity('Get payments from work', "2", "💰");
+generateActivity('Pay back a home loan', "3", "🤑");
+generateActivity('Make a super contribution', "4", "💵");
+generateActivity('Apply for a home loan', "5", "🏦");
+generateActivity('Open a new bank account', "6", "💱");
+generateActivity('Trade stocks on the ASX', "7", "💹");
+generateActivity('Find a savings account', "8","💰");
+generateActivity('Use a business account to pay a client', "9", "🏦");
