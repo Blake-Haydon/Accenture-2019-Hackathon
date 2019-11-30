@@ -26,9 +26,9 @@ let story1 = {
     "Select a new person to make a payment to.",
     "Choose 'Mobile Number' and then enter the number supplied by your friend. Save their details to your address book so you don't need to re-enter their details later.",
     "Make the $20 payment using your 'Personal Account' and give a relevant description of your choice.",
-    "Confirm the details are correct and make the payment."
+    "Confirm the details are correct and make the payment.",
     "You have successfully sent money to your friends!<br> and continue."
-  ]
+  ],
   info_msg: ["The home screen is a place where the main banking functions can be accessed",
   "This is your address book, with all of your saved banking contacts. These make it even faster to make payments to your friends without entering the details again.",
   "Paying someone can be done in many different ways. Each one works as a means to send money. <br> TIP: There are more ways to send money than those displayed here",
@@ -36,7 +36,5 @@ let story1 = {
   "Here is where you fill in the amount to pay your friend. Make sure to enter a description so that you and the recipient knows what the payment is for. You must also select which account you want to take the money from (this is useful for managing different types of payments). <br> TIP: The app will stop you from sending more money than you have in the selected account",
   "This is the confirmation window that gives you a summary of the payment details. You can make sure all the details are correct before making the final transaction.",
   "This final page confirms that your payment has been successful",
-  "Mobile numbers can be used to send money to as well",
-  
-  ]
+  "Mobile numbers can be used to send money to as well"]
 }
