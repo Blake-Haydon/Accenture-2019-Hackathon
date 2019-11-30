@@ -1,5 +1,3 @@
-let stories = [];
-
 let story1 = {
   steps: [["character","text_msg","task_title","task"],["task_title","task"],["text_msg","task"],["task"],["text_msg","task"],["character","text_msg","task_title","task"],["task"],["task"],["task"],["text_msg","task_title","task"]],
   character: ["Gary Smith", "Barry Jones"],

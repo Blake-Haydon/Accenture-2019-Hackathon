@@ -1,6 +1,5 @@
 
-
-function next_step(story,step_num)
+function next_step()
 {
   let total_steps = story.steps.length;
   if (total_steps <= step_num)
@@ -13,14 +12,14 @@ function next_step(story,step_num)
   {
     Error("step number should be positive");
   }
-  for (let i = 0; i < story.steps[step_num].length, i++)
+  for (let i = 0; i < story.steps[step_num].length; i++)
   {
     output_id = story.steps[step_num][i];
-    outputArea = getElementById(output_id);
-    outputArea.innerText = story[output_id];
+    outputArea = document.getElementById(output_id);
+    outputArea.innerHTML = story[output_id][story_index[output_id]];
+    story_index[output_id]++;
   }
-  let progress = (step_num/total_steps)*100; // percentage progress of steps
-  document.querySelector('task_progress').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(progress);
-  });
+  let progress = (step_num/(total_steps-1))*100; // percentage progress of steps
+  document.getElementById("task_progress").MaterialProgress.setProgress(progress);
+  step_num++;
 }
