@@ -8,20 +8,17 @@ function moveAnimation()
   {
     displaying = false;
   }
-
   else
   {
     displaying = true;
   }
-
   let animationId = setInterval(frameStep,1)
   let divider = 1;
-  let opacitySave = 0;
-
+opacitySave = 0;
   function frameStep()
   {
 
-    if (posReal == 20)
+    if (posReal == 200)
     {
       clearInterval(animationId);
     }
@@ -30,7 +27,7 @@ function moveAnimation()
       opacitySave = 0.01 + opacitySave
       element.style.opacity = opacitySave
       posReal++
-      pos = pos + (1/divider)/7
+      pos = pos + (1/divider)
       divider = divider + 0.02;
         element.style.left = pos + 'px';
         element.style.right = pos + 'px';
@@ -51,5 +48,3 @@ function displayInfo(textInfo,location)
 let htmlCODE = "";
 htmlCode += ""
 }
-
-moveAnimation();

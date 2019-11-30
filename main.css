@@ -23,3 +23,25 @@
   font-color: #ffffff;
   border: 2px solid white;
 }
+
+.phone{
+    /* TODO: this needs to be fixed or removed*/
+    /* height: 400px;
+    width: 250px; */
+
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-grid;
+    grid-template-columns: auto 200px auto; /* to change the size of the phone */
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid-item1 {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+text-align: center;
+}

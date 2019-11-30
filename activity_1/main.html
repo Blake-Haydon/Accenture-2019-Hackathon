@@ -4,7 +4,10 @@
   <title>G-Bank Education Centre</title>
 
   <!-- stylesheet -->
-  <link rel="stylesheet" type="text/css" href="./main.css">
+  <link rel="stylesheet" type="text/css" href="../main.css">
+  <link rel="stylesheet" type="text/css" href="../css/activity_box_styles.css">
+  <link rel="stylesheet" type="text/css" href="../css/animation.css">
+
 
   <!-- Material design -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -43,7 +46,48 @@
 
 
         <!-- MAIN PAGE CONTENT HERE -->
-        <div class="grid-container" id="main-grid"></div>
+        <div class="grid-container" id="main-grid">
+<!--
+          <div>
+            <button onclick="removeAnimation()">
+              hey there big boy
+            </button>
+
+            <div id="myContainer">
+              <div id="myAnimation" style="opacity: 0;">
+                <div id="borderBoxInfo" class="border-box" style="text-align: center;">
+                  <p id="infoTitle"> INFO TITLE
+                    <hr style="color: #000000;">
+                    <div style="font-weight:normal;" id="infoArea">
+                      My name is Joe
+                    </div>
+                </div>
+              </div>
+            </div>
+            <script src="../animationScript.js"></script>
+          </div> -->
+
+          <div class="info_box">
+            <img src="../graphics/i.png" alt="Avatar">
+            <h1>Information</h1>
+            <p id="text_message">Hey this is informattion about the thing</p>
+          </div>
+
+          <div class="chat_box">
+            <img src="../graphics/profile_image_1_v2.png" alt="Avatar">
+            <h1>Gary</h1>
+            <p id="text_message">Hey mate can you send me $10 you owe for lunch the other day?</p>
+          </div>
+
+          <div class="info_box">
+            <img src="../graphics/i.png" alt="Avatar">
+            <h1>Information</h1>
+            <p id="text_message">Hey this is informattion about the thing</p>
+          </div>
+
+
+
+        </div>
 
         <!-- FOOTER -->
         <footer class="mdl-mini-footer">
@@ -62,6 +106,7 @@
 
 
   <!-- scripts -->
-  <script type="text/javascript" src="./scripts/main.js"></script>
+  <script type="text/javascript" src="../scripts/main.js"></script>
+  <script type="text/javascript" src="../scripts/activity1.js"></script>
 
 </body>
