@@ -7,7 +7,6 @@
   <link rel="stylesheet" type="text/css" href="../main.css">
   <link rel="stylesheet" type="text/css" href="../css/activity_box_styles.css">
   <link rel="stylesheet" type="text/css" href="../css/animation.css">
-  <link rel="stylesheet" type="text/css" href="../css/phoneTemplate1_style.css">
 
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
@@ -72,12 +71,14 @@
             <h1 id="task_title"></h1>
             <p id="task"></p>
             <!-- Simple MDL Progress Bar -->
-            <div id="progress_box">
+            <!-- <div id="progress_box">
               <div id="task_progress" class="mdl-progress mdl-js-progress"></div>
               <script>
-                document.getElementById("task_progress").MaterialProgress = 0;
-              </script>
-            </div>
+                document.querySelector('#task_progress').addEventListener('mdl-componentupgraded', function() {
+                  this.MaterialProgress.setProgress(0);
+                });
+              <!-- </script> -->
+            <!-- </div> -->
           </div>
 
 
