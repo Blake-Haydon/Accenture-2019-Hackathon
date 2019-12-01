@@ -16,7 +16,7 @@ let story1 = {
     ["text_msg", "task_title", "task","info_msg"]*/
     ["task","info_msg"],
     ["task","info_msg"],
-    ["text_msg","task","info_msg"]
+    ["text_msg","task_title","task","info_msg"]
   ],
   character: ["Gary Smith"
   //,"Barry Jones"
@@ -260,13 +260,13 @@ let story1 = {
         '</div>'+
         '<div style = " font-family: Lato, sans-serif;"class= "grid-item1">'+
           '<br>'+
-          '<label>Pay To:</label>'+
+          '<label>Pay To: Gary Smith</label>'+
           '<br><br>'+
-          '<label>From:</label>'+
+          '<label>From: Everyday Account</label>'+
           '<br><br>'+
-          '<label>Amount:</label>'+
+          '<label>Amount: $10.00</label>'+
           '<br><br>'+
-          '<label>Description:</label>'+
+          '<label>Description: Lunch</label>'+
           '<br><hr>'+
           '<img src = "../tick.png" style = "height: 15%">'+
         '</div>'+
